@@ -1,0 +1,150 @@
+/* index.html */
+
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.bg {
+	background-image: url(http://s1.picswalls.com/wallpapers/2014/07/24/sushi-hd_112714184_82.jpg);
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+	height: 60%;
+	width: 100%;
+
+}
+
+#heading {
+	color: white;
+	opacity: 1;
+	margin-top: 5%;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	font-family: Impact;
+}
+
+#heading > h1 {
+	font-size: 80px;
+}
+
+#heading > h2 {
+	font-size: 60px;
+}
+
+#about {
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 1600px;
+	float: left;
+	font-size: 20px;
+	font-family: Georgia, Serif;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.hr {
+	margin-left: 25%;
+	margin-right: 25%;
+	color: white;
+}
+
+.pic {
+	height: 200px;
+}
+
+.picDiv {
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.navbar-inverse{
+	margin-bottom: 0;
+}
+
+
+/* location.html */
+
+
+#locationBG {
+	height: 100%;
+	background-color: black;
+	margin-top: 0;
+	padding-top: 5%;
+}
+
+#locationH1 {
+	margin-bottom: 5%;
+	color: white;
+	font-family: Georgia;
+}
+
+#contact {
+	color: white;
+	padding-top: 20%;
+}
+
+#contact > h3 {
+	font-size: 40px;
+	font-family: georgia;
+}
+
+/* Menu */
+
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+
+.menu-section {
+  margin-bottom: 80px;
+}
+
+.menu-section-title {
+  font-family: georgia;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: center;
+  margin-top: 10%;
+}
+
+.menu-section-subtitle {
+	font-family: georgia;
+	font-size: 20px;
+	display: block;
+	font-weight: normal;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
